@@ -13,7 +13,17 @@ class Mbogi{
 
     public function __construct(){
 
-        var_dump($this);
+        $this->route=$this->getRoute();
+
+        var_dump($this->route);
+
+    }//
+
+    private function getRoute(){
+
+        $route="others";
+
+        return "route";
 
     }//
 

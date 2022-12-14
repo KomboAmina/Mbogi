@@ -5,7 +5,8 @@
     "autoload": {
         "psr-4": {
             "Mbogi\\": "src/",
-            "Mbogi\\Core\\":"src/core/"
+            "Mbogi\\Core\\":"src/core/",
+            "Mbogi\\Models\\":"src/models/"
         }
     },
     "authors": [
